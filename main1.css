@@ -1,0 +1,81 @@
+body {
+    font-family: 'Comfortaa';font-size: 22px;
+    background-color: #E0BBE4;
+    padding: 0;
+    margin: 0;
+}
+
+.container-cotton {
+    background-color: #FEC8D8;
+    padding: 16% 16%;
+}
+
+.container-cotton p{
+    font-size: 25px;
+}
+
+.container-cotton font{
+    font-size: 120px;
+    margin-right: 10px;
+    font-weight: 900;
+    color: white;
+}
+
+.clock-holder {
+    margin: 60px 0;
+}
+
+.container {
+    padding: 16% 16%;
+}
+
+.container p{
+    font-size: 25px;
+}
+
+.card {
+    height: 350px;
+    width: 250px;
+    background-color: #957DAD;
+    color: white;
+    padding: 40px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.card.fade-out {
+    opacity: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.card h2{
+    width: fit-content;
+    font-size: 50px;
+    display: none;
+}
+
+.card p{
+    display: none;
+}
+
+.card font {
+    margin-top: 120px;
+    display: block;
+    font-size: 80px;
+    text-align: center;
+}
+
+.card.show font{
+    display: none;
+}
+
+.card.show p, .card.show h2{
+    display: block;
+}
+
